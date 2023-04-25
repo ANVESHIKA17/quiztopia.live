@@ -1,0 +1,29 @@
+.question-section{
+    color: aqua;
+}
+.quiz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1ICKf0eglpFgjCmwRqNPx8xEmUH9GEx5_Nw&usqp=CAU');
+    background-size: cover
+  }
+  
+  .subtitle {
+    font-size: 25px;
+    border: 1px solid black;
+    box-shadow: 4px 4px 2px black;
+    padding: 5px 10px;
+  }
+
+  .quizInfo {
+    width: 100%;
+    display: flex; 
+    /* display flex to tha category and score appear in the same line 
+    justify contnent so that they appear at the two corners */
+    justify-content: space-between;
+    text-transform: uppercase;
+    margin: 10px;
+  }
+  

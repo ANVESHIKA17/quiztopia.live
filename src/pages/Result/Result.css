@@ -1,0 +1,10 @@
+.result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh;
+    text-align: center;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1ICKf0eglpFgjCmwRqNPx8xEmUH9GEx5_Nw&usqp=CAU');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
